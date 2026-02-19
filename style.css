@@ -1,0 +1,100 @@
+/* Alineacion del texto*/
+
+p {
+    text-align: justify;
+}
+
+
+/* Tamano de imagenes */
+img {
+    width: 300px;
+    height: auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Encabezado */
+header {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor principal dividido en dos */
+.contenedor {
+    display: flex;
+    flex: 1;
+}
+
+/* Menú lateral */
+.menu {
+    width: 25%;
+    background-color: #1e1e2f;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.menu a:hover {
+    background-color: #333;
+}
+
+/* Área de contenido */
+.contenido {
+    width: 75%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Secciones individuales */
+.seccion {
+    margin-bottom: 80px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Boton de inicio*/
+.btn-inicio {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0d47a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-inicio:hover {
+    background-color: #1565c0;
+}
